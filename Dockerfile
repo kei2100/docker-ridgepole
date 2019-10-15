@@ -2,7 +2,7 @@ FROM ruby:2.6-alpine
 
 COPY Gemfile /ridgepole/
 RUN apk add --no-cache --virtual .build build-base \
-  && apk add --no-cache postgresql-dev \
+  && apk add --no-cache postgresql-dev mariadb-dev \
   && cd /ridgepole \
   && bundle install \
   && rm -rf /ridgepole \
