@@ -5,7 +5,7 @@ docker image for [ridgepole](https://github.com/winebarrel/ridgepole)
 
 now supports
 * Ruby 2.7
-* ridgepole 0.9.x
+* ridgepole 1.0.0
 
 ```
 docker pull kei2100/ridgepole
