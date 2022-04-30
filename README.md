@@ -1,7 +1,7 @@
 docker-ridgepole
 ====
 
-docker image for [ridgepole](https://github.com/winebarrel/ridgepole)
+docker image for [ridgepole](https://github.com/ridgepole/ridgepole)
 
 now supports
 * Ruby 2.7
