@@ -1,4 +1,4 @@
-FROM ruby:2.7-alpine
+FROM ruby:3.1-alpine
 
 COPY Gemfile /ridgepole/
 RUN apk add --no-cache --virtual .build build-base \
