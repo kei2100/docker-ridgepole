@@ -36,4 +36,4 @@ jobs:
         env:
           TAG: ${{ env.TAG }}
         run: |
-          make docker.push
+          make docker.push.buildx
