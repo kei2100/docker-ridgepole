@@ -31,7 +31,7 @@ ifndef TAG
 	))
 endif
 
-ACT_PLATFORM = ubuntu-latest=nektos/act-environments-ubuntu:18.04
+ACT_PLATFORM = ubuntu-latest=catthehacker/ubuntu:act-22.04
 ACT_JOB = docker-push
 
 .PHONY: gha.docker-push
