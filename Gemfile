@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-gem 'ridgepole', '1.2.1'
+gem 'ridgepole', '2.0.0'
 gem 'pg'
 gem 'mysql2'
