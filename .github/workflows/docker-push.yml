@@ -24,10 +24,10 @@ jobs:
           env
       - name: checkout
         if: github.actor != 'nektos/act'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: docker login
-        uses: docker/login-action@v1
+        uses: docker/login-action@v2
         with:
           username: kei2100
           password: ${{ secrets.DOCKER_PASSWORD }}
